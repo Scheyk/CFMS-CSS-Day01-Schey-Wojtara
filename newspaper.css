@@ -1,6 +1,13 @@
 p {
 	/*fallback*/
-	font-family:"Lucida Console", "Courier New", monospace;
+	color: blue;
+	color: #1005FF;
+	color: rgb(16, 5, 255);
+	color: rgba(16, 5, 255, 90);
+
+	font-size: 14px;
+	font-size: 1em;
+	font-size: 2.7cm;
 	
 }
 
