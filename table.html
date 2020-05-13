@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Table</title>
+	<style>
+		video {
+			width: 400px;
+		}
+	</style>
 </head>
 <body>
 	<table width="80%;" border="2px;">
@@ -11,15 +16,25 @@
 				<th><img src="image2.jpg" alt="Wolke" width="400px" height="200px"></th>
 				<th><audio src="https://ia800207.us.archive.org/29/items/MLKDream/MLKDream.wav" autoplay controls>Your browser does not support the <code>audio</code> element.</audio>
                 </th>
-				<th> <video width="480" controls poster="https:https://archive.org/details/CSPAN2_20190110_233100_President_Trump_Receives_Border_Security_Briefing_in_Mission_Texas/start/443.6/end/464.5" >
+				<th><iframe width="560" height="315" src="https://www.youtube.com/embed/7A8hs6E5MZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td><a src="https://archive.org/details/brooklynmuseum-o4368-the-great-red-dragon-and-the-woman"></a></td>
-				<td>data</td>
-				<td>data</td>				
+				<td><iframe src="https://wiki.selfhtml.org/wiki/HTML/Multimedia_und_Grafiken/Aktive_Inhalte_einbinden#iframe"></iframe></td>
+				<td><audio src="https://ia800207.us.archive.org/29/items/MLKDream/MLKDream.wav" autoplay controls>Your browser does not support the <code>audio</code> element.</audio>
+				</td>
+				<td><video autobuffer autoloop loop controls>
+					<source src="Elster - 35908.mp4">
+					<source src="/media/video.m4v">
+					<object type="video/mp4" data="/media/video.mp4" width="50px" height="50px">
+					<param name="src" value="/media/video.oga">
+					<param name="autoplay" value="false">
+					<param name="autoStart" value="0">
+					<p><a href="/media/video.oga">Download this video file.</a></p>
+					</object>
+				</video></td>				
 			</tr>
 		</tbody>
 	</table>
